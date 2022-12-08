@@ -11,9 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Booking Apps',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: 'Poppins',
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -59,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {},
               text: "Download",
               width: 100,
-              type: PrimaryButtonType.type2,
+              type: PrimaryButtonType.type1,
             )
           ],
         ),
