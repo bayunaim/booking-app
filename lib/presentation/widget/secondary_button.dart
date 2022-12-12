@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:booking/config/config.dart';
 
-class SecondaryWidget extends StatelessWidget {
-  const SecondaryWidget(
+class SecondaryButton extends StatelessWidget {
+  const SecondaryButton(
       {Key? key,
       this.type = SecondaryButtonType.type1,
       required this.onPressed,
